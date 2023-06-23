@@ -1,0 +1,446 @@
+:root {
+ --app-primary-font: 'Roboto', sans-serif;;
+ --primary-color:rgba(42, 85, 168, 1);
+}
+
+ * {
+   font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+ }
+
+ .scrollbar-container {
+   position: relative;
+   height: 100%;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ .default-card {
+   background: #fff !important;
+   border-radius: 16px;
+ }
+
+ .MuiBox-root.css-1cw9fiv {
+   background: none;
+   background-image: url('../assets/images/login.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+ }
+
+ .profileMenu {
+   position: absolute;
+   bottom: -107%;
+   width: 100%;
+   left: 0;
+   background-color: #ffffff !important;
+   border-radius: 8px;
+   padding: 15px;
+   box-shadow: 0rem 0.5rem 1.625rem -0.25rem rgb(20 20 20 / 15%), 0rem 0.5rem 0.5625rem -0.3125rem rgb(20 20 20 / 6%);
+ }
+
+ /* width */
+ ::-webkit-scrollbar {
+   width: 6px;
+   height:6px;
+ }
+
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1;
+ }
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: #888;
+ }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.scrollbar-container {
+  position: relative;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.default-card {
+  background: #fff !important;
+  border-radius: 16px;
+}
+
+.MuiBox-root.css-1cw9fiv {
+  background: none;
+  background-image: url("../assets/images/login.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.profileMenu {
+  position: absolute;
+  bottom: -107%;
+  width: 100%;
+  left: 0;
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0rem 0.5rem 1.625rem -0.25rem rgb(20 20 20 / 15%),
+    0rem 0.5rem 0.5625rem -0.3125rem rgb(20 20 20 / 6%);
+}
+
+.login-box {
+  background: rgb(0, 0, 0, 0.3);
+  position: relative;
+  backdrop-filter: blur(3px);
+  border-radius: 10px;
+  padding: 19px;
+}
+
+.date-picker-width {
+  width: 100% !important;
+}
+
+.hover-effect:hover {
+  color: var(--primary-color);
+}
+
+ .hover-effect:hover {
+   color: rgb(17, 204, 240);
+ }
+
+ .header-box {
+   background-color: #dedede !important;
+   color: #000;
+   font-size: 13px;
+ }
+
+ .table-wrapper::-webkit-scrollbar {
+   width: 4px;
+   height: 4px;
+ }
+
+ .css-1s2u09g-control {
+   min-width: 80px !important;
+ }
+
+ .tabs.MuiButtonBase-root {
+   background-color: #f8f9fb !important;
+ }
+
+ .tabs.MuiButtonBase-root {
+   box-shadow: none !important;
+   opacity: .5 !important;
+ }
+
+ .tabs.Mui-selected {
+   opacity: 1 !important;
+   border: none !important;
+   border-radius: 0px !important;
+   border-bottom: 3px solid royalblue !important;
+ }
+
+
+ .factor-tab-summary {
+   padding: 0 !important;
+   border: none !important;
+ }
+
+ .factor-tab-summary-inner {
+   padding: 0 !important;
+   background-color: transparent !important;
+   border: none !important;
+ }
+
+ .factor-tab-summary-inner .MuiAccordionSummary-expandIconWrapper {
+   padding: 4px;
+   background-color: #3e3d3d;
+   border-radius: 2px;
+   position: relative;
+   z-index: 3;
+ }
+
+ .factor-tab-summary-inner p {
+   border-radius: 2px;
+   background-color: #3e3d3d;
+   color: #ffffff;
+   font-size: 12px !important;
+   padding: 3px 15px;
+   position: relative;
+   z-index: 3;
+ }
+
+ .factor-tab-summary-inner-detail {
+   padding-top: 0 !important;
+   position: relative;
+ }
+
+ .factor-tab-summary-inner-detail p {
+   font-size: 12px !important;
+   border-radius: 2px;
+   background-color: #c2c2c247;
+   padding: 5px;
+   margin-left: 15px;
+   color: #000000;
+   font-weight: 500;
+   margin-bottom: 0;
+   position: relative;
+   z-index: 2;
+ }
+
+.sidenav-box.MuiList-root {
+  display: block !important;
+  height: calc(100vh - 31vh) !important;
+  overflow:hidden !important;
+  overflow-y: scroll !important;
+}
+
+
+.table-wrapper::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.css-1s2u09g-control {
+  min-width: 80px !important;
+}
+
+.tabs.MuiButtonBase-root {
+  background-color: #f8f9fb !important;
+}
+.tabs.MuiButtonBase-root {
+  box-shadow: none !important;
+  opacity: 0.5 !important;
+}
+.tabs.Mui-selected {
+  opacity: 1 !important;
+  border: none !important;
+  border-radius: 0px !important;
+  border-bottom: 3px solid var(--primary-color) !important;
+}
+
+
+
+.MuiDataGrid-panel .MuiDataGrid-columnsPanelRow .MuiSwitch-switchBase.Mui-checked {
+  transform: translate(18px, -11px);
+}
+
+.MuiDataGrid-toolbarContainer{
+  justify-content: end;
+}
+
+div[role="tooltip"] {
+  position: absolute;
+  margin-right:10px !important;
+}
+
+/*class for overriding the data grid font style*/
+.datagrid-font .MuiDataGrid-cell{
+  font-size: 0.875rem;
+  font-weight: 700 !important;
+  color: #344767;
+  opacity: .8;
+}
+
+.modal-wrapper.MuiModal-root {
+ z-index: 9999 !important;
+}
+
+.modal-wrapper .MuiBackdrop-root{
+  backdrop-filter: blur(4px);
+}
+
+.MuiDataGrid-panel .MuiDataGrid-columnsPanelRow .MuiSwitch-switchBase.Mui-checked {
+  transform: translate(18px, -11px);
+}
+
+@media screen and (max-width: 767px) {
+  .MuiBox-root.css-1cw9fiv {
+    background: var(--primary-color);
+    background-image: none !important;
+  }
+  .MuiBox-root.css-m4kqxi {
+    padding: 0 !important;
+  }
+  .login-box {
+    background: rgb(0, 0, 0, 0.3);
+    position: relative;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+  }
+}
+.Diligence-data-grid .MuiTablePagination-selectLabel,
+.Diligence-data-grid .MuiTablePagination-displayedRows {
+  font-size: 14px;
+}
+
+.Diligence-data-grid .MuiTablePagination-actions {
+  border: '1px solid';
+  width: fit-content;
+  margin-right: 50px !important;
+}
+
+.Diligence-data-grid .MuiInputBase-colorPrimary {
+  width: 80px !important;
+}
+
+.select-box > .css-1bgqdvt-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+  width: 100% !important;
+}
+
+.inputTextField > div > .css-wuhq1r-MuiInputBase-input-MuiOutlinedInput-input{
+  width: 100% !important;
+}
+
+.MuiAutoCompleteCssAdjust .MuiInputBase-input,
+.MuiAutoCompleteCssAdjust .MuiFormLabel-root {
+  font-size: small !important;
+  padding-bottom: 3px !important;
+
+}
+
+.MuiDataGridCssAdjust .MuiTablePagination-selectLabel,
+.MuiDataGridCssAdjust .MuiTablePagination-displayedRows {
+  font-size: 14px;
+}
+
+.MuiDataGridCssAdjust .MuiTablePagination-actions {
+  border: '1px solid';
+  width: fit-content;
+  margin-right: 50px !important;
+}
+
+/* .MuiDataGridCssAdjust .MuiInputBase-colorPrimary {
+  width: 80px !important;
+} */
+.MUIRadioButtonCSSAdjust .MuiFormControlLabel-label{
+  font-weight:normal !important;
+  font-size: 13px !important;
+  color:rgb(39,39,39) !important;
+}
+
+.mui-select{
+  width: 100% !important;
+}
+.mui-select #demo-simple-select{
+  width: 100% !important;
+}
+.css-97joq5{
+  width:unset !important;
+}
+
+
+.parameter-dropdown{
+  width:100% !important;
+  border-bottom: 0px solid transparent !important;
+}
+.parameter-dropdown:before{
+  border-bottom: 0px solid transparent !important;
+}
+.parameter-dropdown select{
+  width:100% !important;
+}
+/* Risk Input Tabs */
+.risk-tabs{
+  background-color: transparent !important;
+}
+.risk-tabs .risk-tab-inner{
+  background-color: #eef5ff !important;
+  margin-right: 15px;
+  padding: 10px 7px;
+  border-radius: 5px;
+  min-width: max-content !important;
+}
+.risk-tabs .risk-tab-inner.Mui-selected{
+  background-color: #bce1be !important;
+}
+.notching-tabs{
+  background-color: transparent !important;
+}
+.notching-tabs .notching-tab-inner{
+  background-color: #eef5ff !important;
+  margin-right: 15px;
+  padding: 10px 7px;
+  border-radius: 0;
+  min-width: max-content !important;
+  border-left: 3px solid #c2c2c2;
+  border-right: 3px solid #c2c2c2;
+  box-shadow: none;
+}
+
+.notching-tabs .notching-tab-inner:last-child{
+  border-right: 0;
+  border-radius: 0;
+}
+.notching-tabs .notching-tab-inner:first-child{
+  border-left: 0;
+}
+
+.notching-tabs .notching-tab-inner.Mui-selected{
+  border-radius: 0;
+  box-shadow: none;
+  color: #001aff !important;
+}
+.backButton{
+  border: 1px solid #5c79e3 !important;
+  color: #5c79e3 !important;
+  box-shadow: 0rem 0.25rem 0.375rem 0rem rgba(52, 71, 103, 0.1), 0rem 0.0625rem 0.1875rem 0rem rgba(0, 0, 0, 0.08) !important;
+}
+.nextButton{
+  background-color: #5c79e3 !important;
+  color: #ffffff !important;
+}
+.data-grid-wrapper {
+  font-family: var(--app-primary-font) !important; 
+} 
+
+.data-grid-wrapper.MuiDataGrid-root .MuiDataGrid-cell:focus {
+ outline:none !important;
+}
+
+.data-grid-wrapper.MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within{
+  outline:none !important;
+}
+
+.data-grid-wrapper .MuiDataGrid-columnHeader .MuiDataGrid-columnHeaderTitle{
+  font-weight: 500 !important;  
+}
+
+.data-grid-wrapper .MuiTablePagination-selectLabel,
+.data-grid-wrapper .MuiTablePagination-displayedRows {
+    font-size: 14px;
+}
+
+.data-grid-wrapper .MuiTablePagination-actions {
+    border: 1px solid;
+    width: fit-content;
+    margin-right: 50px !important;
+}
+
+.data-grid-wrapper .MuiInputBase-colorPrimary {
+    width: 80px !important;
+}
+
+.data-grid-wrapper .MuiDataGrid-footerContainer{
+  display: none !important;
+}
+
+/****** custom select box ******/
+.custom-select {
+  padding:8px;
+  border-radius: 6px;
+  border-color: #dedede;
+}
+.custom-select:active, :focus{
+  border-color: #dedede;
+  outline: none !important;
+}
+
